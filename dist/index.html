@@ -8,7 +8,7 @@
 <body>
 <header id="l-header">
 	<h1 class="app-title">Jogo da Velha cheio de tecnologias</h1>
-	<nav class="l-main-menu">
+	<nav class="l-main-menu" role="navigation">
 		<ul>
 			<li class="is-current"><a href="./index.html">Jogo</a></li>
 			<li><a href="./about.html">Sobre a IA</a></li>
@@ -18,10 +18,10 @@
 </header>
 <main id="l-main">
 	<section class="main-feature">
-		<canvas id="myCanvas"></canvas>
+		<canvas id="myCanvas" aria-label="Tabuleiro do jogo da Velha"></canvas>
 	</section>
 	<section class="secundary-feature">
-		Habilitar IA <input type="checkbox" id="IA"><br/>
+		Habilitar IA <input type="checkbox" id="IA" aria-label="Ativar IA"><br/>
 		<aside>
 			<div>Servidor: <span id="servidor"></span></div>
 		</aside>

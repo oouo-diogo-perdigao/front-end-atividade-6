@@ -23,7 +23,7 @@ body {
 		background-color:$menuBackgroundColor;
 		padding: 0px 0px;
 		box-sizing: border-box;
-		color: lighten($primaryTextColor, 30%);
+		color: $titleTextColor;
 
 		.app-title {
 			margin-top: 0px;
@@ -70,9 +70,9 @@ body {
 		min-height: 50px;
 		height: auto;
 		background-color: $menuBackgroundColor;
-		color: lighten($primaryTextColor, 30%);
+		color: $titleTextColor;
 		a{
-			color: lighten($primaryTextColor, 30%);
+			color: $titleTextColor;
 			text-decoration: none;
 			font-weight: bold;
 		}
@@ -85,7 +85,7 @@ body {
 .l-main-menu {
 	padding: 0px;
 	margin: 0px;
-	
+	color: $titleTextColor;
 	// Lista das telas de menu
 	ul{
 		width: 100%;
@@ -103,7 +103,7 @@ body {
 		border-bottom: 5px solid lighten($menuBackgroundColor, 30%);
 	}
 	a{
-		color: lighten($primaryTextColor, 30%);
+		color: $titleTextColor;
 		display: block;
 		float: left;
 		line-height: 2em;
